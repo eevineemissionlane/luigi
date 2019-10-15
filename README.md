@@ -1,5 +1,10 @@
 # luigi
 
+## Local authenticate
+```sh
+gcloud init
+```
+
 ## Run
 
 ```sh
