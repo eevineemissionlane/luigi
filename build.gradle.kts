@@ -19,6 +19,9 @@ repositories {
 }
 
 dependencies {
+
+    implementation("com.google.cloud:google-cloud-pubsub:1.42.0")
+
     // Align versions of all Kotlin components
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
 
