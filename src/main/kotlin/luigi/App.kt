@@ -11,5 +11,8 @@ class App {
 }
 
 fun main() {
+
     println(App().greeting)
+
+    Publisher.sendSamples(7)
 }
